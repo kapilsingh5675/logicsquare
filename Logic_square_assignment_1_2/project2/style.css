@@ -1,0 +1,213 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+  }
+  
+  #h1 {
+    padding: 43px 0px;
+    min-height: 30vh;
+    background-color: #626163; }
+  
+  #h2 {
+    text-align: center;
+   }
+  #search1 {
+    margin-top: 40px;
+    text-align: center; }
+    #search1 input {
+      text-align: center;
+      font-size: 22px;
+      height: 40px;
+      width: 100%;
+      border: none;
+      border-radius: 20px; }
+    #search1 ::placeholder {
+      color: #c2c2c2;
+      opacity: 1;
+    }
+    #search1 :-ms-input-placeholder {
+      color: #c2c2c2; }
+    #search1 ::-ms-input-placeholder {
+      color: #c2c2c2; }
+  
+  #table1 {
+    margin-top: 50px;
+    padding-bottom: 100px;
+    }
+    #table1 * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box; }
+    #table1 body, #table1 html {
+      height: 100%;
+      font-family: sans-serif; }
+    #table1 a {
+      margin: 0px;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      -moz-transition: all 0.4s; }
+    #table1 a:focus {
+      outline: none !important; }
+    #table1 a:hover {
+      text-decoration: none; }
+    #table1 h1, #table1 h2, #table1 h3, #table1 h4, #table1 h5, #table1 h6 {
+      margin: 0px; }
+    #table1 p {
+      margin: 0px; }
+    #table1 ul, #table1 li {
+      margin: 0px;
+      list-style-type: none; }
+    #table1 input {
+      display: block;
+      outline: none;
+      border: none !important; }
+    #table1 textarea {
+      display: block;
+      outline: none; }
+    #table1 textarea:focus, #table1 input:focus {
+      border-color: transparent !important; }
+    #table1 button {
+      outline: none !important;
+      border: none;
+      background: transparent; }
+    #table1 button:hover {
+      cursor: pointer; }
+    #table1 iframe {
+      border: none !important; }
+    #table1 .limiter {
+      width: 100%;
+      margin: 0 auto; }
+    #table1 .container-table100 {
+      width: 100%;
+      min-height: 100vh;
+      background: #c850c0;
+      background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
+      background: -o-linear-gradient(45deg, #4158d0, #c850c0);
+      background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
+      background: linear-gradient(45deg, #4158d0, #c850c0);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 33px 30px; }
+    #table1 .wrap-table100 {
+      width: 1170px; }
+    #table1 table {
+      border-spacing: 1;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 100%;
+      margin: 0 auto;
+      position: relative; }
+    #table1 table * {
+      position: relative; }
+    #table1 table td, #table1 table th {
+      padding-left: 50px; }
+    #table1 table thead tr {
+      height: 60px;
+      background: #807f81; }
+    #table1 table tbody tr {
+      height: 50px; }
+    #table1 table tbody tr:last-child {
+      border: 0; }
+    #table1 table td, #table1 table th {
+      text-align: left; }
+    #table1 table td.l, #table1 table th.l {
+      text-align: right; }
+    #table1 table td.c, #table1 table th.c {
+      text-align: center; }
+    #table1 table td.r, #table1 table th.r {
+      text-align: center; }
+    #table1 .table100-head th {
+      font-family: OpenSans-Regular;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: unset; }
+    #table1 tbody tr:nth-child(even) {
+      background-color: #f5f5f5; }
+    #table1 tbody tr {
+      font-family: OpenSans-Regular;
+      font-size: 15px;
+      line-height: 1.2;
+      font-weight: unset; }
+    #table1 tbody tr:hover {
+      background-color: #f5f5f5;
+      cursor: pointer; }
+    #table1 .col1 {
+      width: 260px;
+      padding-left: 40px; }
+    #table1 .col2 {
+      width: 160px; }
+    #table1 .col3 {
+      width: 245px; }
+    #table1 .col4 {
+      width: 110px;
+      text-align: right; }
+    #table1 .col5 {
+      width: 180px;
+      text-align: right; }
+    #table1 .col6 {
+      width: 222px;
+      text-align: right;
+      padding-right: 62px; }
+    @media screen and (max-width: 992px) {
+      #table1 table {
+        display: block; }
+      #table1 table > *, #table1 table tr, #table1 table td, #table1 table th {
+        display: block; }
+      #table1 table thead {
+        display: none; }
+      #table1 table tbody tr {
+        height: auto;
+        padding: 37px 0; }
+      #table1 table tbody tr td {
+        padding-left: 40% !important;
+        margin-bottom: 24px; }
+      #table1 table tbody tr td:last-child {
+        margin-bottom: 0; }
+      #table1 table tbody tr td:before {
+        font-family: OpenSans-Regular;
+        font-size: 14px;
+        color: #999999;
+        line-height: 1.2;
+        font-weight: unset;
+        position: absolute;
+        width: 40%;
+        left: 30px;
+        top: 0; }
+      #table1 table tbody tr td:nth-child(1):before {
+        content: "Date"; }
+      #table1 table tbody tr td:nth-child(2):before {
+        content: "Order ID"; }
+      #table1 table tbody tr td:nth-child(3):before {
+        content: "Name"; }
+      #table1 table tbody tr td:nth-child(4):before {
+        content: "Price"; }
+      #table1 table tbody tr td:nth-child(5):before {
+        content: "Quantity"; }
+      #table1 table tbody tr td:nth-child(6):before {
+        content: "Total"; }
+      #table1 .col4,
+      #table1 .col5,
+      #table1 .col6 {
+        text-align: left; }
+      #table1 .col4,
+      #table1 .col5,
+      #table1 .col6,
+      #table1 .col1,
+      #table1 .col2,
+      #table1 .col3 {
+        width: 100%; }
+      #table1 tbody tr {
+        font-size: 14px; } }
+    @media (max-width: 576px) {
+      #table1 .container-table100 {
+        padding-left: 15px;
+        padding-right: 15px; } }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Employee Record</title>
+  </head>
+  <body>
+    <h1>Employee Record</h1>
+    <table>
+      <tr>
+          <td>
+              <form autocomplete="off" onsubmit="onFormSubmit()">
+                  <div>
+                      <label for="Employee Full Name">Employee Full Name</label>
+                      <input type="text" name="Employee Full Name" id="EmployeeName" required>
+                  </div>
+                  <div>
+                      <label for="Employee ID">Employee ID</label>
+                      <input type="text" name="Employee ID" id="EmployeeID" required>
+                  </div>
+                  <div>
+                      <label for="Employee Mobile number">Employee Mobile number</label>
+                      <input type="tel" name="Employee Mobile number" id="EmployeeMobile" pattern="[0-9]{3}[0-9]{4}[0-9]{3}" required>
+                  </div>
+                  <div>
+                      <label for="Employee Address">Employee Address</label>
+                      <input type="text" name="Employee Address" id="EmployeeAddress" required>
+                  </div>
+
+                  <div class="form_action--button">
+                      <input type="submit" value="Submit">
+                      <input type="reset" value="Reset">
+                  </div>
+              </form>
+
+              <td>
+                  <table class="list" id="storeList">
+                      <thead>
+                          <tr>
+                              <th>Employee Full Name</th>
+                              <th>Employee ID</th>
+                              <th>Employee Number</th>
+                              <th>Employee Address</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+
+                      </tbody>
+                  </table>
+              </td>
+          </td>
+      </tr>
+  </table>
+  <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
